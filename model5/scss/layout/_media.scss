@@ -1,0 +1,45 @@
+@media (max-width: 450px) {
+  .header {
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+
+    &__slogan {
+      max-width: 300px;
+    }
+  }
+
+  .gallerys__list {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .gallerys__item {
+    grid-template-columns: 1fr;
+    width: 300px;
+  }
+
+  .gallerys__img {
+    width: 90%;
+    height: 200px;
+  }
+
+  .gallerys__title {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .subscription__form {
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+
+    &__input {
+      width: 100%;
+    }
+  }
+
+  .container {
+    padding-inline: 20px;
+  }
+}

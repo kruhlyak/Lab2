@@ -1,0 +1,27 @@
+.subscription__form {
+  @include flex-center(row);
+  gap: 10px;
+
+  &__input {
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 400px;
+    font-size: 16px;
+  }
+
+  &__button {
+    padding: 15px 30px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}

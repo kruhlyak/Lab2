@@ -1,0 +1,48 @@
+.layout {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+
+  aside {
+    display: table-cell;
+    width: 20%;
+    vertical-align: top;
+  }
+
+  section {
+    display: table-cell;
+    width: 80%;
+  }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  td {
+    width: 33%;
+    text-align: center;
+    border: 1px solid @color-border;
+    padding: 10px;
+
+    img {
+      width: 100px;
+      height: auto;
+      background-color: @color-light;
+      display: block;
+      margin: 0 auto 10px auto;
+    }
+  }
+}
+
+.item-info {
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: @color-primary;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
